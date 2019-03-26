@@ -2,15 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <title>Contact</title>
 </head>
 <body>
+    <h1>OnBoard</h1>
     <ul>
         <li><a href="index.html">Main</a></li>
         <li><a href="catalog.html">Catalog</a></li>
         <li><a href="contact.html">Contact</a></li>
     </ul>
+    <hr>
+    <h1>Контакты</h1>
+    <fieldset>
+        <legend>Напишите нам</legend>
+        <form action="feedback.php" method="post">
+            <input type="text" name="username" placeholder="Введите ваше имя">
+            <br>
+            <input type="email" name="email" placeholder="Введите ваш электронный адрес">
+            <br>
+            <input type="text" name="subject" placeholder="Тема сообщения">
+            <br>
+
+            <label for="letterBody">Суть вашего письма:</label>
+            <br>
+            <textarea name="letter" id="letterBody"></textarea>
+            <br>
+
+            <input type="submit" value="Отправить">
+        </form>
+    </fieldset>
+
+    <h2>Адрес</h2>
+    <p>
+        <strong>Телефон: </strong> +7 (926) 926-33-88<br>
+        <strong>Адрес: </strong> город Москва, улица Дербеневская, дом 24, строение 3, офис 3<br>
+        <strong>Email: </strong> info@profboards.ru<br>
+    </p>
+    <div style="margin-bottom: 10px;"><iframe width="640" height="480" src="https://www.google.ru/maps/d/embed?mid=1zWDDXKK2ZXeOIYOcYaL9x3g9rE5RpU3t" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe><br>
+        <small>Просмотреть <a style="text-align: left; color: rgb(0, 0, 255);" href="https://www.google.ru/maps/d/embed?mid=1zWDDXKK2ZXeOIYOcYaL9x3g9rE5RpU3t">Интернет - магазин "OnBoard"</a> на карте большего размера</small></div>
+    <br><br>
+    <p>
+        &copy; "Все права защищены"
+    </p>
 </body>
 </html>
