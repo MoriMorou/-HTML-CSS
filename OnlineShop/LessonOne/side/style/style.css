@@ -13,7 +13,7 @@ body {
     width: 200px;
     height: 20px;
     color: #274e7d;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .product_header {
@@ -42,19 +42,19 @@ body {
     width: 650
 }
 
-.product-features li {
+.product_features li {
     list-style: none;
     background: url(../images/flag.svg) no-repeat left center;
-    background-size: 1.5%;
+    background-size: 1%;
     padding-left: 20px;
 }
 
-.contacts-form input[type="text"],
-.contacts-form input[type="email"] {
+.contacts_form input[type="text"],
+.contacts_form input[type="email"] {
     width: 200px;
     height: 20px;
     color: #274e7d;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .product_img_small {
@@ -64,7 +64,7 @@ body {
 
 .product_img_big {
     height: 300px;
-    border: 4px solid #274e7d;
+    border: 4px solid #c2daf7;
 }
 
 .catalog_img {
