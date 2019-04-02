@@ -72,6 +72,10 @@ body {
     color: #274e7d;
     font-size: 15px;
 }
+.contact_form input[type="email"]:focus {
+    background: #274e7d;
+    color: #fff;
+}
 
 .product_img_small {
     width: 100px;
@@ -95,12 +99,12 @@ body {
 .product_description:first-letter {
     color: #274e7d;
     font-family: Arial, sans-serif;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .footer {
     background: rgba(39, 78, 125, 0.46);
-    height: 100px;
+    height: 50px;
     text-align: center;
     font-weight: bold;
 }
