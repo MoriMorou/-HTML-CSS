@@ -60,7 +60,6 @@ body {
 
 .product_features li {
     list-style: none;
-    background: url(../images/flag.svg) no-repeat left center;
     background-size: 1%;
     padding-left: 20px;
 }
