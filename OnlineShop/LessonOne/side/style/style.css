@@ -103,6 +103,11 @@ body {
     color: #fff;
 }
 
+.catalog_desc {
+    height: 2.5em;
+    overflow: hidden;
+}
+
 .product_img_small {
     width: 100px;
 }
